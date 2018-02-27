@@ -59,3 +59,4 @@ Note: the beating power and the card value are very different. A high strenght c
 ---
 
 
+
