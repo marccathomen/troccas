@@ -15,7 +15,7 @@ The game consists of 78 cards. The following list of the cards is sorted by the 
 * t = Troccas
 * n = Narr - Joker
 
-The 4 suits (r,c,s,b) have each 13 cards, numbered from 1 to 10 and the 4 Figuras (Face Cards): Buob (Jack), Cavalier (Knight), Femna (Queen), Retg (King).
+The 4 suits (r,c,s,b) have each 14 cards, numbered from 1 to 10 and the 4 Figuras (Face Cards): Buob (Jack), Cavalier (Knight), Femna (Queen), Retg (King).
 These cards are comparable with a [Standard 52 Card Deck](https://en.wikipedia.org/wiki/Standard_52-card_deck), but with some exceptions:
 * There is an extra card: the Cavalier (Knight), making a total of 14 cards for each suit.
 * The strength of the cards is different then in a standard 52 deck game like eg. [Texas Hold'em Poker](https://en.wikipedia.org/wiki/Texas_hold_%27em) (more about this below)
