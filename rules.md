@@ -53,7 +53,7 @@ Note: the beating power and the card value are very different. A high strenght c
 * Ils cavaliers (knights): the 4 cavaliers have each a value of 3 points
 * Ils buobs (jacks): the 4 jacks have each a value of 2 points
 * Numbered cards: all the numbered cards of the suits have a value of 0 points
-* Bagat (Joker): the bagat has a value of 5 points
+* Narr (Joker): the narr has a value of 5 points
 
 ## Phases of the game
 ---
