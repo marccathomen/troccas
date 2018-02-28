@@ -55,8 +55,27 @@ Note: the beating power and the card value are very different. A high strenght c
 * Numbered cards: all the numbered cards of the suits have a value of 0 points
 * Narr (Joker): the narr has a value of 5 points
 
+## Players and the environment
+---
+* Troccas is usually played by 4 players. There are other rules of another number of players. For this project we use the 4 players rules of Crusch Alva, Tavanasa (restaurant in a village in Surselva).
+* The 4 players sit on each side of a table in a way that the are able to hide the cards from the other players.
+* The players that sit diagonally build a team
+* To play the game they use one deck of cards, a card game carpet, a piece of paper and a ruler
+
+
 ## Phases of the game
 ---
+The game has the following phases. In each phase there are decisions to be made
+* P1 Team building and select starting Player 
+* P2 Shuffling
+* P3 Distribution, Tschintschar (Announcing the hand to the partner),  deciding whether to play or starting over with shuffling
+* P4 Play the hands
+* P5 Counting the played game
+P2 to P5 are repeated 4 times while changing the starting player clockwise for each game = ina runda (one round)
+
+A predefined number of rounds will be played in a tournament. This number can vary from event to event.
+* P6 Replay for n rounds
+* P7 Defining the winner of the n rounds game
 
 
 
