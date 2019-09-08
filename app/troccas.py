@@ -28,4 +28,5 @@ class Player:
 
 card = Card(10, 2, "r", "9")
 card.show()
-print("cucu")
+
+print("end")
