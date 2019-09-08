@@ -11,8 +11,8 @@ class Card:
         self.label = label
 
     def show(self):
-        # print("id:{} power:{} suit:{} label:{}".format(
-         #   self.id, self.power, self.suit, self.label))
+        print("id:{} power:{} suit:{} label:{}".format(
+            self.id, self.power, self.suit, self.label))
         print("caca")
 
 
@@ -27,5 +27,5 @@ class Player:
 
 
 card = Card(10, 2, "r", "9")
-card.show
+card.show()
 print("cucu")
