@@ -31,6 +31,9 @@ class Deck:
             r = random.randint(0, i)
             self.cards[i], self.cards[r] = self.cards[r], self.cards[i]
 
+    def draw_one(self):
+        pass
+
     def build(self):
         id = 0
         power = 0
