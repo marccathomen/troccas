@@ -14,3 +14,6 @@ class Game:
     def show_players(self):
         for p in self.players:
             p.show()
+
+    def deal_cards(self, deck, players):
+    pass
