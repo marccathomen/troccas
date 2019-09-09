@@ -1,9 +1,7 @@
 
 from game import Game
 
-
 print("Hello World of Troccas")
-
 
 game1 = Game()
 game1.deck.show()
