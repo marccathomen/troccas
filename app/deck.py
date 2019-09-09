@@ -1,6 +1,3 @@
-import random
-
-
 class Card:
     def __init__(self, id, power, value, suit, label):
         self.id = id  # unique identification number
@@ -25,14 +22,6 @@ class Deck:
     def show(self):
         for c in self.cards:
             c.show()
-
-    def full_shuffle(self):
-        for i in range(len(self.cards) - 1, 0, -1):
-            r = random.randint(0, i)
-            self.cards[i], self.cards[r] = self.cards[r], self.cards[i]
-
-    def draw_one(self):
-        pass
 
     def build(self):
         id = 0
