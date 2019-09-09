@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import time
 
 
@@ -67,6 +68,6 @@ class Player:
 
 
 deck = Deck()
-deck.build()
 deck.show()
+print("Number of Cards in Deck: ", len(deck.cards))
 print("end")
