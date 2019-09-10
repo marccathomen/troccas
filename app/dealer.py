@@ -9,7 +9,6 @@ class Dealer:
     def deal_all(self):
         p = []
         for p in self.players:
-            print("cucu")
             for _ in range(0, 19):
                 p.hand.append(self.deck.draw_card())
 
