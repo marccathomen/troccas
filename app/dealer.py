@@ -6,7 +6,7 @@ class Dealer:
         self.deck = deck
         self.full_shuffle()
         self.players = players
-        self.hand_value = 0  # points of the hand that was played
+        self.hand_points = 0  # points of the hand that was played
 
     def deal_all(self):
         p = []
