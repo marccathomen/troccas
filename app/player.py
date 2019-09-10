@@ -9,6 +9,7 @@ class Player:
         print("--------")
         print(self.name)
         print("Number of Cards " + str(len(self.hand)))
+        print("Current Points: " + str(self.points))
         print("--------")
         for h in self.hand:
             h.show()
