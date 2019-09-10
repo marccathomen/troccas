@@ -22,6 +22,10 @@ class Deck:
     def show(self):
         for c in self.cards:
             c.show()
+        print("Number of Cars in Deck: " + str(len(self.cards)))
+
+    def draw_card(self):
+        return self.cards.pop()
 
     def build(self):
         id = 0

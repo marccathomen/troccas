@@ -17,4 +17,5 @@ class Game:
             p.show()
 
     def deal_cards(self):
-        pass
+        self.deck.draw_card()
+        self.deck.show()

@@ -14,5 +14,6 @@ class Dealer:
             r = random.randint(0, i)
             self.deck.cards[i], self.deck.cards[r] = self.deck.cards[r], self.deck.cards[i]
 
-    def draw_one(self):
-        pass
+    def draw_one(self, deck):
+        c = deck.draw_card()
+        deck.show
