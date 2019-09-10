@@ -5,7 +5,10 @@ class Player:
         self.hand = []
 
     def show(self):
+        print("--------")
         print("id:{} name:{}".format(
             self.id, self.name))
+        print("Number of Cards " + str(len(self.hand)))
+        print("--------")
         for h in self.hand:
             h.show()
