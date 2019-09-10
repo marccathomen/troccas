@@ -10,8 +10,7 @@ class Card:
         self.label = label
 
     def show(self):
-        print("id:{} power:{} value:{} suit:{} label:{}".format(
-            self.id, self.power, self.value, self.suit, self.label))
+        print(self.label, self.suit)
 
 
 class Deck:
@@ -63,14 +62,14 @@ class Deck:
                 self.cards.append(Card(id, power, value, suit, label))
                 # print(id, power, value, suit, label)
         # build troccas
-        suit = "T"
+        suit = "Troccas"
         value = 0
-        self.cards.append(Card(57, 15, 5, "T", "1"))  # T1
+        self.cards.append(Card(57, 15, 5, "Troccas", "1"))  # T1
         id += 1
         for j in range(2, 21):
             id += 1
             power = j + 14
             label = j
             self.cards.append(Card(id, power, value, suit, label))
-        self.cards.append(Card(77, 35, 5, "T", "21"))  # T21
-        self.cards.append(Card(78, 0, 5, "N", "0"))  # N
+        self.cards.append(Card(77, 35, 5, "Troccas", "21"))  # T21
+        self.cards.append(Card(78, 0, 5, "Narr", "0"))  # N
