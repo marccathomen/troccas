@@ -3,6 +3,7 @@ class Player:
         self.id = id
         self.name = name
         self.hand = []
+        self.points = 0
 
     def show(self):
         print("--------")
@@ -15,3 +16,6 @@ class Player:
     def fai_scart(self):  # just remove the first 2 elements for now
         self.hand.pop()
         self.hand.pop()
+
+    def add_points(self, points):
+        self.points + points
