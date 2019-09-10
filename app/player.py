@@ -11,3 +11,7 @@ class Player:
         print("--------")
         for h in self.hand:
             h.show()
+
+    def fai_scart(self):  # just remove the first 2 elements for now
+        self.hand.pop()
+        self.hand.pop()
