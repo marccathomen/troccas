@@ -4,6 +4,7 @@ import random
 class Dealer:
     def __init__(self, deck, players):
         self.deck = deck
+        self.full_shuffle()
         self.players = players
 
     def deal_all(self):
