@@ -1,3 +1,6 @@
+import random
+
+
 class Player:
     def __init__(self, id, name):
         self.id = id
@@ -27,8 +30,8 @@ class Player:
         self.scart.append(self.hand.pop())
         self.scart.append(self.hand.pop())
 
+    def play_card(self):
+        return self.hand.pop(random.randrange(len(self.hand)))
+
     def add_points(self, points):
         self.points + points
-
-    def play_card(self, table):
-        return self.hand.pop()  # just play the first card in the hand
