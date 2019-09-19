@@ -6,14 +6,15 @@ class Dealer:
         self.deck = deck
         self.full_shuffle()
         self.players = players
-        self.current_hand = []
-        # the player that starts the next hand (default Player 1)
-        self.hand_starting_player_id = 1
-        # the player that starts the next round of 19 hands (default Player 1)
+        # the cards in the current trick while the first card is the card of the first player that has plaed it
+        self.current_trick = []
+        # the player that starts the next trick (default Player 1)
+        self.trick_starting_player_id = 1
+        # the player that starts the next round of 19 tricks (default Player 1)
         self.round_starting_player_id = 1
         # the player that starts the next game of 4 rounds (default Player 1)
         self.game_starting_player_id = 1
-        self.hand_points = 0  # points of the hand that was played
+        self.trick_points = 0  # points of the trick that was played
 
     def deal_all(self):
         p = []
@@ -31,4 +32,10 @@ class Dealer:
             self.deck.cards[i], self.deck.cards[r] = self.deck.cards[r], self.deck.cards[i]
 
     def play_hand(self):  # command each player to play one card
+        # start with the first player in turn
+        first_player_id = self.trick_starting_player_id
+        
+
+    # reset the players list, so that player with id=1 is at the beginning
+    def reset_player_list(self):
         pass
